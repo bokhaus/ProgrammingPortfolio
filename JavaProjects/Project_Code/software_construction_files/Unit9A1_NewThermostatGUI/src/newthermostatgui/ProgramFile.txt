@@ -1,0 +1,20 @@
+
+
+*************Thermostat Program*************
+
+Fri 2018.12.14 at 02:19:59 AM EST
+
+Program Day:  Monday
+Temperature:  70
+Time:  12:00 AM
+
+*********End of Program*********
+
+*************Thermostat Program*************
+Fri 2018.12.14 at 02:20:57 AM EST
+
+Program Day:  Weekend
+Temperature:  70
+Date:  1/1/2019
+
+*********End of Program*********

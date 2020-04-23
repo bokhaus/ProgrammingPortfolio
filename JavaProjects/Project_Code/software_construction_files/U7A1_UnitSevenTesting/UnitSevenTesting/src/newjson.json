@@ -1,0 +1,13 @@
+{"identifier": "318324702718",
+    "name": "ProgrammableThermostat",
+    "thermostatTime": "2015-02-11 15:58:03",
+    "utcTime": "2015-02-11 20:58:03",
+    "runtime": {
+        "actualTemperature": 711,
+        "actualHumidity": 42
+      },
+    "status": {
+        "code": 0,
+        "message": ""
+    }
+}  

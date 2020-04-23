@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="u02a1_Weather/src"/>
+	<classpathentry kind="lib" path="u02a1_Weather/dist/lib/javax.json-1.1.jar"/>
+	<classpathentry kind="lib" path="u02a1_Weather/dist/lib/Weather.jar"/>
+	<classpathentry kind="lib" path="u02a1_Weather/dist/u02a1_Weather.jar"/>
+	<classpathentry kind="lib" path="u02a1_Weather/javax.json-1.1.jar"/>
+	<classpathentry kind="lib" path="u02a1_Weather/Weather.jar"/>
+	<classpathentry kind="output" path="u02a1_Weather/build/classes"/>
+</classpath>

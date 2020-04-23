@@ -1,0 +1,9 @@
+
+Day        Temperature
+Monday:		68.1 F
+Tuesday:	68.2 F
+Wednesday:	68.3 F
+Thursday:	68.4 F
+Friday:		68.5 F
+Saturday:	72.6 F
+Sunday:		72.7 F

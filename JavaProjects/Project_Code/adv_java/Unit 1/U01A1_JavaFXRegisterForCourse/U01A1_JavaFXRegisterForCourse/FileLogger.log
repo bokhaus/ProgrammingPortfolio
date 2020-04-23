@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-01-13T01:43:44</date>
+  <millis>1547361824791</millis>
+  <sequence>0</sequence>
+  <logger>it4749.u01a1_javafxregisterforcourse.U01A1_JavaFXRegisterForCourse</logger>
+  <level>INFO</level>
+  <class>it4749.u01a1_javafxregisterforcourse.U01A1_JavaFXRegisterForCourse</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Starting JavaFX user interface</message>
+</record>
+<record>
+  <date>2019-01-13T01:44:10</date>
+  <millis>1547361850476</millis>
+  <sequence>1</sequence>
+  <logger>it4749.u01a1_javafxregisterforcourse.U01A1_JavaFXRegisterForCourse</logger>
+  <level>CONFIG</level>
+  <class>it4749.u01a1_javafxregisterforcourse.U01A1_JavaFXRegisterForCourse</class>
+  <method>lambda$start$1</method>
+  <thread>13</thread>
+  <message>SELECTED course text file</message>
+</record>
+<record>
+  <date>2019-01-13T01:44:13</date>
+  <millis>1547361853864</millis>
+  <sequence>2</sequence>
+  <logger>it4749.u01a1_javafxregisterforcourse.U01A1_JavaFXRegisterForCourse</logger>
+  <level>INFO</level>
+  <class>it4749.u01a1_javafxregisterforcourse.U01A1_JavaFXRegisterForCourse</class>
+  <method>lambda$start$0</method>
+  <thread>13</thread>
+  <message>SELECTED course to register</message>
+</record>
+<record>
+  <date>2019-01-13T01:44:18</date>
+  <millis>1547361858628</millis>
+  <sequence>3</sequence>
+  <logger>it4749.u01a1_javafxregisterforcourse.U01A1_JavaFXRegisterForCourse</logger>
+  <level>INFO</level>
+  <class>it4749.u01a1_javafxregisterforcourse.U01A1_JavaFXRegisterForCourse</class>
+  <method>lambda$start$0</method>
+  <thread>13</thread>
+  <message>SELECTED course to register</message>
+</record>
+<record>
+  <date>2019-01-13T01:44:22</date>
+  <millis>1547361862695</millis>
+  <sequence>4</sequence>
+  <logger>it4749.u01a1_javafxregisterforcourse.U01A1_JavaFXRegisterForCourse</logger>
+  <level>SEVERE</level>
+  <class>it4749.u01a1_javafxregisterforcourse.U01A1_JavaFXRegisterForCourse</class>
+  <method>lambda$start$0</method>
+  <thread>13</thread>
+  <message>Attempted duplicate registration</message>
+</record>
+<record>
+  <date>2019-01-13T01:44:28</date>
+  <millis>1547361868127</millis>
+  <sequence>5</sequence>
+  <logger>it4749.u01a1_javafxregisterforcourse.U01A1_JavaFXRegisterForCourse</logger>
+  <level>INFO</level>
+  <class>it4749.u01a1_javafxregisterforcourse.U01A1_JavaFXRegisterForCourse</class>
+  <method>lambda$start$0</method>
+  <thread>13</thread>
+  <message>SELECTED course to register</message>
+</record>
+<record>
+  <date>2019-01-13T01:44:33</date>
+  <millis>1547361873294</millis>
+  <sequence>6</sequence>
+  <logger>it4749.u01a1_javafxregisterforcourse.U01A1_JavaFXRegisterForCourse</logger>
+  <level>SEVERE</level>
+  <class>it4749.u01a1_javafxregisterforcourse.U01A1_JavaFXRegisterForCourse</class>
+  <method>lambda$start$0</method>
+  <thread>13</thread>
+  <message>Attempted registration for more than 9 credit hours</message>
+</record>
+</log>

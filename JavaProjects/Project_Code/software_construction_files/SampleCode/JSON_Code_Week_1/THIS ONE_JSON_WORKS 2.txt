@@ -1,0 +1,72 @@
+/*
+ * THIS ONE WORKS!!!!!!
+ */
+package send_http_request2;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL; 
+import org.json.JSONObject;
+
+public class Send_HTTP_Request2 {
+	public static void main(String[] args) {
+     try {
+         Send_HTTP_Request2.call_me();
+        } catch (Exception e) {
+       }
+     }
+	   
+public static void call_me() throws Exception {
+     String url = "http://media.capella.edu/BBCourse_Production/IT4774/temperature.json#";
+     URL obj = new URL(url);
+     HttpURLConnection con = (HttpURLConnection) obj.openConnection();
+     // optional default is GET
+     con.setRequestMethod("GET");
+     //add request header
+     //con.setRequestProperty("User-Agent", "Mozilla/5.0");
+     int responseCode = con.getResponseCode();
+     System.out.println("\nSending JSON request to URL : " + url);
+     //System.out.println("Response Code : " + responseCode);
+     StringBuffer response;
+            
+     try (BufferedReader in = new BufferedReader(
+            new InputStreamReader(con.getInputStream()))) {
+                String inputLine;
+                response = new StringBuffer();
+                while ((inputLine = in.readLine()) != null) {
+                    response.append(inputLine);
+                }      }
+     //print in String
+     //System.out.println(response.toString());
+     //Read JSON response and print
+     JSONObject jsonData = new JSONObject(response.toString());
+     //System.out.println();
+     //System.out.println("result after Reading JSON Response");
+     System.out.println();
+     System.out.println("identifier: "+jsonData.getString("identifier"));
+     System.out.println("name: "+jsonData.getString("name"));
+     System.out.println("thermostatTime: "+jsonData.getString("thermostatTime"));
+     System.out.println("utcTime: "+jsonData.getString("utcTime"));
+     
+     JSONObject runtime_object = new JSONObject(jsonData.getJSONObject("runtime").toString());
+     System.out.println("runtime: "+ runtime_object.getDouble("runtime"));
+     
+     JSONObject actualTemperature_object = new JSONObject(jsonData.getJSONObject("actualTemperature"));
+     System.out.println("\n actualTemperature: "+ actualTemperature_object.getInt("actualTemperature"));
+     
+     JSONObject actualHumidity_object = new JSONObject(jsonData.getJSONObject("actualHumidity").toString());
+     System.out.println("actualHumidity: "+ actualHumidity_object.getDouble("actualHumidity"));
+     
+     JSONObject status_object = new JSONObject(jsonData.getJSONObject("status").toString());
+     System.out.println("status: "+ status_object.getInt("status"));
+     
+     JSONObject code_object = new JSONObject(jsonData.getJSONObject("code").toString());
+     System.out.println("code: "+ code_object.getInt("code"));
+     
+     JSONObject message_object = new JSONObject(jsonData.getJSONObject("message").toString());
+     System.out.println("message: "+ message_object.getInt("message"));
+     
+     System.out.println("message- "+jsonData.getString("message"));
+   }
+}

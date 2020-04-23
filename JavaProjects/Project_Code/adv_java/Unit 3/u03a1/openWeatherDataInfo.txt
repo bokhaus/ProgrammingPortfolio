@@ -1,0 +1,2 @@
+apiKey = "aa3c36081cd74393e397d2af2c74394b";
+openWeatherUrl - "http://api.openweathermap.org/data/2.5/weather?";

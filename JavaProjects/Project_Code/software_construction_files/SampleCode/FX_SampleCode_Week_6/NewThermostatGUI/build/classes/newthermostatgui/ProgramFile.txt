@@ -1,0 +1,5 @@
+#User Settings
+#Wed Nov 21 04:24:59 EST 2018
+Temperature=75
+Day=Wednesday
+Hour=1:30 AM
