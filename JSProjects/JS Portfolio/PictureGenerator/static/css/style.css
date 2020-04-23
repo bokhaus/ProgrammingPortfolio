@@ -1,0 +1,38 @@
+.container-1, .container-2 { /*Style for the conatiners*/
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-container-1, .flex-box-container-2{ /*Style for flex box*/
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.flex-box-container-1 div{ /*Style for div*/
+    display: flex;
+    padding:10px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.flex-box-container-2 img {
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba( 0, 0, 0, 7); /*provides shadow around picture*/
+    border-radius: 10%; /*adds curve to edges of the image. Can also use px */
+    height: 150px; /*sizes the height for the individual image*/
+    width: 150px; /*sizes the width for the individual image*/
+}
+
+
+
+
+
+
+

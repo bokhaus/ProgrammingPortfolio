@@ -1,0 +1,18 @@
+            <img src="static/images/blue_angels.gif" alt="airplane"width="150" height="150">
+            <img src="static/images/russian.gif" alt="airplane"width="150" height="150">
+            <img src="static/images/rocketTakeOff.gif" alt="airplane"width="150" height="150">
+            <img src="static/images/angelOfDeath2.gif" alt="airplane"width="150" height="150">
+            <img src="static/images/blue_angels2.gif" alt="airplane"width="150" height="150">
+			
+			
+			<img src="static/images/airplaneSunset.jpg" alt="airplane"width="150" height="150">
+            <img src="static/images/blue_angels.gif" alt="airplane"width="150" height="150">
+            <img src="static/images/russian.gif" alt="airplane"width="150" height="150">
+            <img src="static/images/rocketTakeOff.gif" alt="airplane"width="150" height="150">
+            <img src="static/images/angelOfDeath2.gif" alt="airplane"width="150" height="150">
+            <img src="static/images/blue_angels2.gif" alt="airplane"width="150" height="150">
+			
+			
+			['rock', 'paper', 'scissors'] [Math.floor(Math.random() * 3)]
+			
+			37, 50, 233, 1
