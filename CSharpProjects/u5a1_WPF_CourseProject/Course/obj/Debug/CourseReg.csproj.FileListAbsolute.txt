@@ -1,0 +1,6 @@
+C:\Users\User\Dropbox\C# Projects\Week 5\u5a1_WPF_CourseProject\Course\bin\Debug\Course.dll
+C:\Users\User\Dropbox\C# Projects\Week 5\u5a1_WPF_CourseProject\Course\bin\Debug\Course.pdb
+C:\Users\User\Dropbox\C# Projects\Week 5\u5a1_WPF_CourseProject\Course\obj\Debug\CourseReg.csproj.CoreCompileInputs.cache
+C:\Users\User\Dropbox\C# Projects\Week 5\u5a1_WPF_CourseProject\Course\obj\Debug\Course.dll
+C:\Users\User\Dropbox\C# Projects\Week 5\u5a1_WPF_CourseProject\Course\obj\Debug\Course.pdb
+C:\Users\User\Dropbox\C# Projects\Week 5\u5a1_WPF_CourseProject\Course\obj\Debug\CourseReg.csprojAssemblyReference.cache

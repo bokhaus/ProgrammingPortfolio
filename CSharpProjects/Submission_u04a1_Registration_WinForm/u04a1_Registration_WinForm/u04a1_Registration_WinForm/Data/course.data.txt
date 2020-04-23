@@ -1,0 +1,7 @@
+﻿IT2230,Introduction to Database Systems,3,5
+IT2249,Introduction to Programming with Java,6,10
+IT2240,Introduction to Programming with C,3,5
+IT3349,Intermediate Java Programming,3,5
+IT4749,Advanced Java Application Development,6,10
+IT4747,C# Programming and Application Development,6,10
+IT3215,Introduction to JavaScript,3,5

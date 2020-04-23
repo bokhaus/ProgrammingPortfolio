@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="u06a1_registrationRW.jnlp">
+  <information>
+    <title>u06a1_registrationRW</title>
+    <vendor>User</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\mariadb-java-client-2.1.1.jar" size="490076" download="eager" />
+    <jar href="u06a1_registrationRW.jar" size="10309" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="u06a1_registrationRW" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="edu.capella.it4749.U06a1_registrationRW"  name="u06a1_registrationRW" />
+  <update check="always"/>
+</jnlp>

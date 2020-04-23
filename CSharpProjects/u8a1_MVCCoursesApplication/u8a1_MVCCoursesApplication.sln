@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u8a1_MVCCoursesApplication", "u8a1_MVCCoursesApplication\u8a1_MVCCoursesApplication.csproj", "{8B86F19B-C4A9-43A8-8A59-BF2C9AF35FF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseReg", "CourseReg\CourseReg.csproj", "{EE0F9BE5-B47C-4ED6-B99E-BA46BE082F99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B86F19B-C4A9-43A8-8A59-BF2C9AF35FF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B86F19B-C4A9-43A8-8A59-BF2C9AF35FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B86F19B-C4A9-43A8-8A59-BF2C9AF35FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B86F19B-C4A9-43A8-8A59-BF2C9AF35FF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE0F9BE5-B47C-4ED6-B99E-BA46BE082F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0F9BE5-B47C-4ED6-B99E-BA46BE082F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0F9BE5-B47C-4ED6-B99E-BA46BE082F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0F9BE5-B47C-4ED6-B99E-BA46BE082F99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48F17BEC-12CC-4803-BEF7-979B94B5C0DE}
+	EndGlobalSection
+EndGlobal

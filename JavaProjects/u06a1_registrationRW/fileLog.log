@@ -1,0 +1,66 @@
+Feb 18, 2019 12:40:33 AM edu.capella.it4749.U06a1_registrationRW main
+INFO: Creating logger for program.
+Feb 18, 2019 12:40:34 AM edu.capella.it4749.U06a1_registrationRW queryDatabaseAsync
+INFO: Method Start....
+Feb 18, 2019 12:40:34 AM edu.capella.it4749.U06a1_registrationRW start
+INFO: Call Async method for thread query
+Feb 18, 2019 12:40:34 AM edu.capella.it4749.U06a1_registrationRW getAvailableCourses
+INFO:  Connection is valid: true
+Feb 18, 2019 12:40:39 AM edu.capella.it4749.U06a1_registrationRW deleteRegistrations
+INFO: Connection status true
+Feb 18, 2019 12:40:39 AM edu.capella.it4749.U06a1_registrationRW deleteRegistrations
+INFO: 0 registrations deleted.
+Feb 18, 2019 12:40:39 AM edu.capella.it4749.U06a1_registrationRW lambda$start$0
+INFO:  The parameter: studentID = bbok1234
+Feb 18, 2019 12:40:43 AM edu.capella.it4749.U06a1_registrationRW registerForCourse
+INFO: Connection status true
+Feb 18, 2019 12:40:43 AM edu.capella.it4749.U06a1_registrationRW registerForCourse
+CONFIG: AutoCommit OFF {0}
+Feb 18, 2019 12:40:43 AM edu.capella.it4749.U06a1_registrationRW registerForCourse
+INFO: JDBC Insert SQL: sql : 'insert into learner_registration(course_code, learner_id) values(?, ?)', parameters : ['IT2230','bbok1234']
+Feb 18, 2019 12:40:43 AM edu.capella.it4749.U06a1_registrationRW registerForCourse
+INFO: Rows added: 1
+Feb 18, 2019 12:40:43 AM edu.capella.it4749.U06a1_registrationRW registerForCourse
+INFO: DB Insert committed.
+Feb 18, 2019 12:40:43 AM edu.capella.it4749.U06a1_registrationRW registerForCourse
+CONFIG: AutoCommit ON {0}
+Feb 18, 2019 12:40:43 AM edu.capella.it4749.U06a1_registrationRW lambda$start$3
+INFO: SELECTED course to register
+Feb 18, 2019 12:40:44 AM edu.capella.it4749.U06a1_registrationRW registerForCourse
+INFO: Connection status true
+Feb 18, 2019 12:40:44 AM edu.capella.it4749.U06a1_registrationRW registerForCourse
+CONFIG: AutoCommit OFF {0}
+Feb 18, 2019 12:40:44 AM edu.capella.it4749.U06a1_registrationRW registerForCourse
+INFO: JDBC Insert SQL: sql : 'insert into learner_registration(course_code, learner_id) values(?, ?)', parameters : ['IT3349','bbok1234']
+Feb 18, 2019 12:40:44 AM edu.capella.it4749.U06a1_registrationRW registerForCourse
+INFO: Rows added: 1
+Feb 18, 2019 12:40:44 AM edu.capella.it4749.U06a1_registrationRW registerForCourse
+INFO: DB Insert committed.
+Feb 18, 2019 12:40:44 AM edu.capella.it4749.U06a1_registrationRW registerForCourse
+CONFIG: AutoCommit ON {0}
+Feb 18, 2019 12:40:44 AM edu.capella.it4749.U06a1_registrationRW lambda$start$3
+INFO: SELECTED course to register
+Feb 18, 2019 12:40:46 AM edu.capella.it4749.U06a1_registrationRW registerForCourse
+INFO: Connection status true
+Feb 18, 2019 12:40:46 AM edu.capella.it4749.U06a1_registrationRW registerForCourse
+CONFIG: AutoCommit OFF {0}
+Feb 18, 2019 12:40:46 AM edu.capella.it4749.U06a1_registrationRW registerForCourse
+INFO: JDBC Insert SQL: sql : 'insert into learner_registration(course_code, learner_id) values(?, ?)', parameters : ['IT4786','bbok1234']
+Feb 18, 2019 12:40:46 AM edu.capella.it4749.U06a1_registrationRW registerForCourse
+INFO: Rows added: 1
+Feb 18, 2019 12:40:46 AM edu.capella.it4749.U06a1_registrationRW registerForCourse
+INFO: DB Insert committed.
+Feb 18, 2019 12:40:46 AM edu.capella.it4749.U06a1_registrationRW registerForCourse
+CONFIG: AutoCommit ON {0}
+Feb 18, 2019 12:40:46 AM edu.capella.it4749.U06a1_registrationRW lambda$start$3
+INFO: SELECTED course to register
+Feb 18, 2019 12:40:48 AM edu.capella.it4749.U06a1_registrationRW getRegisteredCourses
+INFO: Results of registration query ready: true
+Feb 18, 2019 12:40:48 AM edu.capella.it4749.U06a1_registrationRW lambda$start$1
+INFO: Iterate ArrayList 	parameter: StudentID = bbok1234
+Feb 18, 2019 12:40:52 AM edu.capella.it4749.U06a1_registrationRW deleteRegistrations
+INFO: Connection status true
+Feb 18, 2019 12:40:52 AM edu.capella.it4749.U06a1_registrationRW deleteRegistrations
+INFO: 3 registrations deleted.
+Feb 18, 2019 12:40:53 AM edu.capella.it4749.U06a1_registrationRW lambda$start$2
+CONFIG: Exit system - Delete Records

@@ -1,0 +1,96 @@
+Mar 05, 2019 4:58:15 AM edu.capella.it4749.U08a1_tableview main
+INFO: ****** Program Start ******
+Mar 05, 2019 4:58:15 AM edu.capella.it4749.U08a1_tableview main
+INFO: Creating logger for program.
+Mar 05, 2019 4:58:16 AM edu.capella.it4749.U08a1_tableview start
+INFO: Create GUI and show stage
+Mar 05, 2019 4:58:16 AM edu.capella.it4749.U08a1_tableview getAvailableCourses
+INFO:  Connection is valid: true
+Mar 05, 2019 4:58:16 AM edu.capella.it4749.U08a1_tableview getAvailableCourses
+INFO: JDBC Insert SQL: org.mariadb.jdbc.MariaDbStatement@4e347a1c
+Mar 05, 2019 4:58:16 AM edu.capella.it4749.U08a1_tableview isAvailableTable
+INFO: Call getAvailableCourses method for query
+Mar 05, 2019 4:58:16 AM edu.capella.it4749.U08a1_tableview isAvailableTable
+INFO: Populate TableView 	 Two columns 'Course' and 'Credit Hours'
+Mar 05, 2019 4:58:16 AM edu.capella.it4749.U08a1_tableview start
+INFO: Query course_offerings table for available courses and displays in TableView tableAvail
+Mar 05, 2019 4:58:16 AM edu.capella.it4749.U08a1_tableview getRegisteredCourses
+INFO: JDBC Insert SQL: sql : 'select learner_registration.course_code, credit_hours from learner_registration inner join course_offerings using(course_code) where learner_id =?', parameters : ['']
+Mar 05, 2019 4:58:16 AM edu.capella.it4749.U08a1_tableview getRegisteredCourses
+INFO: Results of registration query ready: false
+Mar 05, 2019 4:58:16 AM edu.capella.it4749.U08a1_tableview isRegisteredTable
+INFO: Populate TableView 	 Two columns 'Course' and 'Credit Hours'
+Mar 05, 2019 4:58:16 AM edu.capella.it4749.U08a1_tableview start
+INFO: Query learner_registration table for current registered courses displays in tableAvail
+Mar 05, 2019 5:16:52 AM edu.capella.it4749.U08a1_tableview registerForCourse
+INFO: Connection status true
+Mar 05, 2019 5:16:52 AM edu.capella.it4749.U08a1_tableview registerForCourse
+CONFIG: AutoCommit OFF {0}
+Mar 05, 2019 5:16:52 AM edu.capella.it4749.U08a1_tableview registerForCourse
+INFO: JDBC Insert SQL: sql : 'insert into learner_registration(course_code, learner_id) values(?, ?)', parameters : ['IT2230','bbok123']
+Mar 05, 2019 5:16:52 AM edu.capella.it4749.U08a1_tableview registerForCourse
+INFO: Rows added: 1
+Mar 05, 2019 5:16:52 AM edu.capella.it4749.U08a1_tableview registerForCourse
+INFO: DB Insert committed.
+Mar 05, 2019 5:16:52 AM edu.capella.it4749.U08a1_tableview registerForCourse
+CONFIG: AutoCommit ON {0}
+Mar 05, 2019 5:16:52 AM edu.capella.it4749.U08a1_tableview validation
+INFO: SELECTED course to register
+Mar 05, 2019 5:16:52 AM edu.capella.it4749.U08a1_tableview lambda$start$3
+INFO: Validate Course Selection
+Mar 05, 2019 5:17:00 AM edu.capella.it4749.U08a1_tableview registerForCourse
+INFO: Connection status true
+Mar 05, 2019 5:17:00 AM edu.capella.it4749.U08a1_tableview registerForCourse
+CONFIG: AutoCommit OFF {0}
+Mar 05, 2019 5:17:00 AM edu.capella.it4749.U08a1_tableview registerForCourse
+INFO: JDBC Insert SQL: sql : 'insert into learner_registration(course_code, learner_id) values(?, ?)', parameters : ['IT3345','bbok123']
+Mar 05, 2019 5:17:00 AM edu.capella.it4749.U08a1_tableview registerForCourse
+INFO: Rows added: 1
+Mar 05, 2019 5:17:00 AM edu.capella.it4749.U08a1_tableview registerForCourse
+INFO: DB Insert committed.
+Mar 05, 2019 5:17:00 AM edu.capella.it4749.U08a1_tableview registerForCourse
+CONFIG: AutoCommit ON {0}
+Mar 05, 2019 5:17:00 AM edu.capella.it4749.U08a1_tableview validation
+INFO: SELECTED course to register
+Mar 05, 2019 5:17:00 AM edu.capella.it4749.U08a1_tableview lambda$start$3
+INFO: Validate Course Selection
+Mar 05, 2019 5:17:08 AM edu.capella.it4749.U08a1_tableview validation
+SEVERE: Attempted duplicate registration
+Mar 05, 2019 5:17:08 AM edu.capella.it4749.U08a1_tableview lambda$start$3
+INFO: Validate Course Selection
+Mar 05, 2019 5:17:17 AM edu.capella.it4749.U08a1_tableview registerForCourse
+INFO: Connection status true
+Mar 05, 2019 5:17:17 AM edu.capella.it4749.U08a1_tableview registerForCourse
+CONFIG: AutoCommit OFF {0}
+Mar 05, 2019 5:17:17 AM edu.capella.it4749.U08a1_tableview registerForCourse
+INFO: JDBC Insert SQL: sql : 'insert into learner_registration(course_code, learner_id) values(?, ?)', parameters : ['IT3349','bbok123']
+Mar 05, 2019 5:17:17 AM edu.capella.it4749.U08a1_tableview registerForCourse
+INFO: Rows added: 1
+Mar 05, 2019 5:17:17 AM edu.capella.it4749.U08a1_tableview registerForCourse
+INFO: DB Insert committed.
+Mar 05, 2019 5:17:17 AM edu.capella.it4749.U08a1_tableview registerForCourse
+CONFIG: AutoCommit ON {0}
+Mar 05, 2019 5:17:17 AM edu.capella.it4749.U08a1_tableview validation
+INFO: SELECTED course to register
+Mar 05, 2019 5:17:17 AM edu.capella.it4749.U08a1_tableview lambda$start$3
+INFO: Validate Course Selection
+Mar 05, 2019 5:17:21 AM edu.capella.it4749.U08a1_tableview validation
+SEVERE: Attempted registration for more than 9 credit hours
+Mar 05, 2019 5:17:21 AM edu.capella.it4749.U08a1_tableview lambda$start$3
+INFO: Validate Course Selection
+Mar 05, 2019 5:17:30 AM edu.capella.it4749.U08a1_tableview getRegisteredCourses
+INFO: JDBC Insert SQL: sql : 'select learner_registration.course_code, credit_hours from learner_registration inner join course_offerings using(course_code) where learner_id =?', parameters : ['bbok123']
+Mar 05, 2019 5:17:30 AM edu.capella.it4749.U08a1_tableview getRegisteredCourses
+INFO: Results of registration query ready: true
+Mar 05, 2019 5:17:30 AM edu.capella.it4749.U08a1_tableview isRegisteredTable
+INFO: Populate TableView 	 Two columns 'Course' and 'Credit Hours'
+Mar 05, 2019 5:17:30 AM edu.capella.it4749.U08a1_tableview lambda$start$1
+INFO: Confirm Button Selected, query registration table for verification of courses
+Mar 05, 2019 5:17:40 AM edu.capella.it4749.U08a1_tableview deleteRegistrations
+INFO: Connection status true
+Mar 05, 2019 5:17:40 AM edu.capella.it4749.U08a1_tableview deleteRegistrations
+INFO: JDBC Insert SQL: sql : 'delete from learner_registration where learner_id = ?', parameters : [null]
+Mar 05, 2019 5:17:40 AM edu.capella.it4749.U08a1_tableview deleteRegistrations
+INFO: 3 registrations deleted.
+Mar 05, 2019 5:17:42 AM edu.capella.it4749.U08a1_tableview lambda$start$2
+CONFIG: Exit system - Delete Records

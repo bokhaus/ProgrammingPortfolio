@@ -1,0 +1,6 @@
+C:\Users\User\Dropbox\C# Projects\Week 4\Submission_u04a1_Registration_WinForm\u04a1_Registration_WinForm\CourseReg\bin\Debug\CourseReg.dll
+C:\Users\User\Dropbox\C# Projects\Week 4\Submission_u04a1_Registration_WinForm\u04a1_Registration_WinForm\CourseReg\bin\Debug\CourseReg.pdb
+C:\Users\User\Dropbox\C# Projects\Week 4\Submission_u04a1_Registration_WinForm\u04a1_Registration_WinForm\CourseReg\obj\Debug\CourseReg.csprojAssemblyReference.cache
+C:\Users\User\Dropbox\C# Projects\Week 4\Submission_u04a1_Registration_WinForm\u04a1_Registration_WinForm\CourseReg\obj\Debug\CourseReg.csproj.CoreCompileInputs.cache
+C:\Users\User\Dropbox\C# Projects\Week 4\Submission_u04a1_Registration_WinForm\u04a1_Registration_WinForm\CourseReg\obj\Debug\CourseReg.dll
+C:\Users\User\Dropbox\C# Projects\Week 4\Submission_u04a1_Registration_WinForm\u04a1_Registration_WinForm\CourseReg\obj\Debug\CourseReg.pdb

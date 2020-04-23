@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit6_Registration_WinForm_SQL", "Unit6_Registration_WinForm_SQL\Unit6_Registration_WinForm_SQL.csproj", "{1115C042-59A9-4463-A06D-FE5C97A82DCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseReg", "CourseReg\CourseReg.csproj", "{2F4DD72D-6489-47BF-B1C8-85DE446D042F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1115C042-59A9-4463-A06D-FE5C97A82DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1115C042-59A9-4463-A06D-FE5C97A82DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1115C042-59A9-4463-A06D-FE5C97A82DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1115C042-59A9-4463-A06D-FE5C97A82DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F4DD72D-6489-47BF-B1C8-85DE446D042F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4DD72D-6489-47BF-B1C8-85DE446D042F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4DD72D-6489-47BF-B1C8-85DE446D042F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4DD72D-6489-47BF-B1C8-85DE446D042F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F0A8478-F71C-4CF7-8517-9D8E98FE6FA1}
+	EndGlobalSection
+EndGlobal

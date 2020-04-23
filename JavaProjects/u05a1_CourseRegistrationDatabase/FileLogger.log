@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-09T01:42:54</date>
+  <millis>1549694574785</millis>
+  <sequence>0</sequence>
+  <logger>edu.capella.it4749.U05a1_CourseRegistrationDatabase</logger>
+  <level>INFO</level>
+  <class>edu.capella.it4749.U05a1_CourseRegistrationDatabase</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Starting JavaFX user interface</message>
+</record>
+<record>
+  <date>2019-02-09T01:42:54</date>
+  <millis>1549694574933</millis>
+  <sequence>1</sequence>
+  <logger>edu.capella.it4749.U05a1_CourseRegistrationDatabase</logger>
+  <level>INFO</level>
+  <class>edu.capella.it4749.U05a1_CourseRegistrationDatabase</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Connection status: true</message>
+</record>
+<record>
+  <date>2019-02-09T01:42:54</date>
+  <millis>1549694574940</millis>
+  <sequence>2</sequence>
+  <logger>edu.capella.it4749.U05a1_CourseRegistrationDatabase</logger>
+  <level>INFO</level>
+  <class>edu.capella.it4749.U05a1_CourseRegistrationDatabase</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>SQL result ready: true</message>
+</record>
+</log>

@@ -1,0 +1,4 @@
+u1a1_inheritoverridetostring.FlexPathCourse
+u1a1_inheritoverridetostring.U1A1_InheritOverridetoString
+u1a1_inheritoverridetostring.GuidedPathCourse
+u1a1_inheritoverridetostring.Course

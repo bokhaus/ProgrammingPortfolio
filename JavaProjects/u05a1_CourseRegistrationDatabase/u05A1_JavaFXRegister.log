@@ -1,0 +1,12 @@
+Feb 10, 2019 4:25:38 PM edu.capella.it4749.U05a1_CourseRegistrationDatabase main
+INFO: Creating logger for program.
+Feb 10, 2019 4:25:39 PM edu.capella.it4749.U05a1_CourseRegistrationDatabase queryDatabaseAsync
+INFO: Method Start...Passing user input to method through parameter.
+Feb 10, 2019 4:25:39 PM edu.capella.it4749.U05a1_CourseRegistrationDatabase start
+INFO: Call Async method for thread query
+Feb 10, 2019 4:25:39 PM edu.capella.it4749.U05a1_CourseRegistrationDatabase queryDatabase
+INFO: Connection status true
+Feb 10, 2019 4:25:39 PM edu.capella.it4749.U05a1_CourseRegistrationDatabase start
+INFO: Populate courseComboBox
+Feb 10, 2019 4:25:41 PM edu.capella.it4749.U05a1_CourseRegistrationDatabase lambda$start$0
+INFO: SELECTED course to register

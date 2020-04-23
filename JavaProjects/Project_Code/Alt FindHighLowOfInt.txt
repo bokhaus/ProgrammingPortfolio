@@ -1,0 +1,26 @@
+public class Ovning_321 {
+    public static void main(String[] args){
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Give me an integer: "); 
+
+        number = input.nextInt();
+        int max = number;
+        int min = number;
+
+              for (int x = 0; x<4; x++){ 
+                    System.out.print("Give me an integer: "); 
+                    number = input.nextInt(); 
+
+                    if (number > max){ 
+                        max = number;  
+                    }
+
+                    if (number < min){ 
+                        min = number;  
+                    } 
+              }                 
+              System.out.println("Highest value: " + max);
+              System.out.println("Lowest value: " + min);
+        }
+ }

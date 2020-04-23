@@ -1,0 +1,110 @@
+/*Assignment 4 Complex Queries*/
+-----------------------------------
+/*Query 1*/
+
+SELECT customer.lastname, customer.firstname,  
+COUNT(order_customer.customerid)"#orders"
+FROM customer, order_customer
+WHERE customer.customerid = order_customer.customerid
+GROUP BY customer.lastname,customer.firstname, order_customer.customerid
+ORDER BY customer.lastname;
+
+-----------------------------------
+/*Query 2*/
+
+SELECT customer.lastname, customer.firstname, order_customer.orderdate
+FROM customer, order_customer 
+WHERE customer.customerid = order_customer.customerid 
+AND order_customer.orderdate > sysdate-30
+ORDER BY customer.lastname;
+
+-----------------------------------
+/*Query 3*/
+
+SELECT customer.lastname, customer.firstname, product.productname,
+        order_customer.orderdate
+FROM customer,order_customer, product
+WHERE customer.customerid = order_customer.customerid
+ORDER BY customer.lastname;
+
+-----------------------------------
+/*Query 4*/
+
+SELECT product.productname, category.categoryname
+FROM product, category
+WHERE product.categoryid = category.categoryid
+ORDER BY category.categoryname;
+
+-----------------------------------
+/*Query 5*/
+
+SELECT product.productname, SUM(order_detail.price*order_detail.quantity)"Total Amount", 
+AVG(order_detail.QUANTITY)"Avg Units Sold"
+FROM product, order_detail
+WHERE product.productid= order_detail.productid
+GROUP BY product.productname
+ORDER BY product.productname ASC;
+
+-----------------------------------
+/*Query 6 */
+
+SELECT customer.state, SUM(order_detail.quantity)"Units/State"
+FROM customer, order_customer, order_detail
+WHERE customer.customerid = order_customer.customerid
+AND order_detail.orderid = order_customer.orderid
+GROUP BY customer.state
+ORDER BY SUM(order_detail.quantity)DESC;
+
+-----------------------------------
+/*Query 7*/
+
+SELECT to_char(order_customer.orderdate, 'MM-YYYY')AS MONTH, AVG(order_detail.Quantity)AS AVG
+FROM order_customer, order_detail
+WHERE order_customer.orderid = order_customer.orderid
+GROUP BY to_char(order_customer.orderdate, 'MM-YYYY')
+ORDER By 1;   
+
+-----------------------------------
+/*Query 8 Adapted the query to prove.
+Changed from 5 orders to 2 orders*/
+
+/*5 orders*/
+SELECT customer.firstname, customer.lastname, customer.address, customer.city, 
+customer.state, customer.zip 
+FROM customer, order_customer
+WHERE customer.customerid = order_customer.customerid
+GROUP BY customer.firstname, customer.lastname, customer.address, customer.city, 
+customer.state, customer.zip
+HAVING COUNT(order_customer.orderid) >=5
+ORDER BY customer.lastname;
+
+/*2 orders*/
+SELECT customer.firstname, customer.lastname, customer.address, customer.city, 
+customer.state, customer.zip 
+FROM customer, order_customer
+WHERE customer.customerid = order_customer.customerid
+GROUP BY customer.firstname, customer.lastname, customer.address, customer.city, 
+customer.state, customer.zip
+HAVING COUNT(order_customer.orderid) >=2
+ORDER BY customer.lastname;
+
+-----------------------------------
+/*Query 9*/
+
+SELECT product.productname, product.productid,SUM(order_detail.quantity)"Units"
+FROM order_detail, product
+WHERE product.productid = order_detail.productid
+GROUP BY product.productname, product.productid
+ORDER BY SUM(order_detail.quantity) DESC;
+
+-----------------------------------
+/*Query 10*/
+
+SELECT DISTINCT productid, price AS Max_unit_price_sold
+FROM order_detail
+WHERE ROW(productid, price) IN
+(SELECT productid, MAX(unitprice) 
+    FROM order_detail
+    GROUP BY productid)
+ORDER BY productid;
+----------------END----------------

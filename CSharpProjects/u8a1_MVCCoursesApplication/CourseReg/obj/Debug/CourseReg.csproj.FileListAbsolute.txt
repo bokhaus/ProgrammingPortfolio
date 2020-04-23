@@ -1,0 +1,12 @@
+C:\Users\User\Dropbox\C# Projects\Week 8\u8a1_MVCCoursesApplication\CourseReg\bin\Debug\CourseReg.dll.config
+C:\Users\User\Dropbox\C# Projects\Week 8\u8a1_MVCCoursesApplication\CourseReg\bin\Debug\CourseReg.dll
+C:\Users\User\Dropbox\C# Projects\Week 8\u8a1_MVCCoursesApplication\CourseReg\bin\Debug\CourseReg.pdb
+C:\Users\User\Dropbox\C# Projects\Week 8\u8a1_MVCCoursesApplication\CourseReg\obj\Debug\CourseReg.csproj.CoreCompileInputs.cache
+C:\Users\User\Dropbox\C# Projects\Week 8\u8a1_MVCCoursesApplication\CourseReg\obj\Debug\CourseReg.dll
+C:\Users\User\Dropbox\C# Projects\Week 8\u8a1_MVCCoursesApplication\CourseReg\obj\Debug\CourseReg.pdb
+C:\Users\User\Dropbox\C# Projects\Week 8\u8a1_MVCCoursesApplication\CourseReg\bin\Debug\EntityFramework.dll
+C:\Users\User\Dropbox\C# Projects\Week 8\u8a1_MVCCoursesApplication\CourseReg\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Dropbox\C# Projects\Week 8\u8a1_MVCCoursesApplication\CourseReg\bin\Debug\EntityFramework.xml
+C:\Users\User\Dropbox\C# Projects\Week 8\u8a1_MVCCoursesApplication\CourseReg\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Dropbox\C# Projects\Week 8\u8a1_MVCCoursesApplication\CourseReg\obj\Debug\CourseReg.csproj.CopyComplete
+C:\Users\User\Dropbox\C# Projects\Week 8\u8a1_MVCCoursesApplication\CourseReg\obj\Debug\CourseReg.csprojAssemblyReference.cache

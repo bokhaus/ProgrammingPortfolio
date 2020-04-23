@@ -1,0 +1,34 @@
+Feb 27, 2019 8:04:40 PM u07a1.U07a1 main
+INFO: Starting Program
+Feb 27, 2019 8:04:40 PM u07a1.U07a1 main
+INFO: Creating logger for program.
+Feb 27, 2019 8:04:41 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Feb 27, 2019 8:04:44 PM u07a1.CourseRegistrationService getAllCourses
+INFO: getAllCourses method call.
+Feb 27, 2019 8:04:59 PM u07a1.CourseRegistrationService createCourseRegistration
+INFO: createCourseRegistration method call.
+Feb 27, 2019 8:04:59 PM u07a1.CourseRegistrationService getAllCourseRegistrations
+INFO: getAllCourseRegistrations method call.
+Feb 27, 2019 8:04:59 PM u07a1.U07a1 lambda$start$1
+INFO: call service getAllCourseRegistration method
+Feb 27, 2019 8:04:59 PM u07a1.U07a1 lambda$start$1
+INFO: Iterate List 	parameter: Learner ID = bbok
+Feb 27, 2019 8:05:03 PM u07a1.CourseRegistrationService createCourseRegistration
+INFO: createCourseRegistration method call.
+Feb 27, 2019 8:05:03 PM u07a1.CourseRegistrationService getAllCourseRegistrations
+INFO: getAllCourseRegistrations method call.
+Feb 27, 2019 8:05:03 PM u07a1.U07a1 lambda$start$1
+INFO: call service getAllCourseRegistration method
+Feb 27, 2019 8:05:03 PM u07a1.U07a1 lambda$start$1
+INFO: Iterate List 	parameter: Learner ID = bbok
+Feb 27, 2019 8:05:05 PM u07a1.CourseRegistrationService createCourseRegistration
+INFO: createCourseRegistration method call.
+Feb 27, 2019 8:05:05 PM u07a1.CourseRegistrationService getAllCourseRegistrations
+INFO: getAllCourseRegistrations method call.
+Feb 27, 2019 8:05:05 PM u07a1.U07a1 lambda$start$1
+INFO: call service getAllCourseRegistration method
+Feb 27, 2019 8:05:05 PM u07a1.U07a1 lambda$start$1
+INFO: Iterate List 	parameter: Learner ID = bbok
+Feb 27, 2019 8:05:09 PM u07a1.U07a1 lambda$start$0
+CONFIG: Exiting system

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-01-22T22:46:36</date>
+  <millis>1548215196325</millis>
+  <sequence>1</sequence>
+  <logger>edu.capella.it4749.U02A1_Weather</logger>
+  <level>INFO</level>
+  <class>edu.capella.it4749.U02A1_Weather</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Starting JavaFX user interface</message>
+</record>
+<record>
+  <date>2019-01-22T22:46:39</date>
+  <millis>1548215199487</millis>
+  <sequence>2</sequence>
+  <logger>edu.capella.it4749.U02A1_Weather</logger>
+  <level>INFO</level>
+  <class>edu.capella.it4749.U02A1_Weather</class>
+  <method>configureFileChooser</method>
+  <thread>13</thread>
+  <message>Create FileChooser</message>
+</record>
+<record>
+  <date>2019-01-22T22:46:39</date>
+  <millis>1548215199488</millis>
+  <sequence>3</sequence>
+  <logger>edu.capella.it4749.U02A1_Weather</logger>
+  <level>INFO</level>
+  <class>edu.capella.it4749.U02A1_Weather</class>
+  <method>lambda$start$0</method>
+  <thread>13</thread>
+  <message>Starting File Chooser Dialog</message>
+</record>
+<record>
+  <date>2019-01-22T22:46:45</date>
+  <millis>1548215205165</millis>
+  <sequence>4</sequence>
+  <logger>edu.capella.it4749.U02A1_Weather</logger>
+  <level>CONFIG</level>
+  <class>edu.capella.it4749.U02A1_Weather</class>
+  <method>lambda$start$0</method>
+  <thread>13</thread>
+  <message>SELECTED Weather JSON file</message>
+</record>
+<record>
+  <date>2019-01-22T22:46:45</date>
+  <millis>1548215205219</millis>
+  <sequence>5</sequence>
+  <logger>edu.capella.it4749.U02A1_Weather</logger>
+  <level>INFO</level>
+  <class>edu.capella.it4749.U02A1_Weather</class>
+  <method>lambda$start$0</method>
+  <thread>13</thread>
+  <message>Accessing WeatherParser....Parsing JSON File</message>
+</record>
+<record>
+  <date>2019-01-22T22:46:45</date>
+  <millis>1548215205224</millis>
+  <sequence>6</sequence>
+  <logger>edu.capella.it4749.U02A1_Weather</logger>
+  <level>INFO</level>
+  <class>edu.capella.it4749.U02A1_Weather</class>
+  <method>lambda$start$0</method>
+  <thread>13</thread>
+  <message>Display Data to GUI using Weather.jar</message>
+</record>
+<record>
+  <date>2019-01-22T22:46:58</date>
+  <millis>1548215218441</millis>
+  <sequence>7</sequence>
+  <logger>edu.capella.it4749.U02A1_Weather</logger>
+  <level>INFO</level>
+  <class>edu.capella.it4749.U02A1_Weather</class>
+  <method>lambda$start$1</method>
+  <thread>13</thread>
+  <message>Manual System Shutdown</message>
+</record>
+</log>

@@ -1,0 +1,7 @@
+C:\Users\Veteran\Dropbox\C# Projects\Week 1\Assignment 1\CourseRegistration_Console_u01a1\CourseRegistration_Console_u01a1\bin\Debug\CourseRegistration_Console_u01a1.exe.config
+C:\Users\Veteran\Dropbox\C# Projects\Week 1\Assignment 1\CourseRegistration_Console_u01a1\CourseRegistration_Console_u01a1\bin\Debug\CourseRegistration_Console_u01a1.exe
+C:\Users\Veteran\Dropbox\C# Projects\Week 1\Assignment 1\CourseRegistration_Console_u01a1\CourseRegistration_Console_u01a1\bin\Debug\CourseRegistration_Console_u01a1.pdb
+C:\Users\Veteran\Dropbox\C# Projects\Week 1\Assignment 1\CourseRegistration_Console_u01a1\CourseRegistration_Console_u01a1\obj\Debug\CourseRegistration_Console_u01a1.csprojAssemblyReference.cache
+C:\Users\Veteran\Dropbox\C# Projects\Week 1\Assignment 1\CourseRegistration_Console_u01a1\CourseRegistration_Console_u01a1\obj\Debug\CourseRegistration_Console_u01a1.csproj.CoreCompileInputs.cache
+C:\Users\Veteran\Dropbox\C# Projects\Week 1\Assignment 1\CourseRegistration_Console_u01a1\CourseRegistration_Console_u01a1\obj\Debug\CourseRegistration_Console_u01a1.exe
+C:\Users\Veteran\Dropbox\C# Projects\Week 1\Assignment 1\CourseRegistration_Console_u01a1\CourseRegistration_Console_u01a1\obj\Debug\CourseRegistration_Console_u01a1.pdb

@@ -1,0 +1,13 @@
+C:\Users\User\Dropbox\C# Projects\Week 6\Unit6_Registration_WinForm_SQL\Unit6_Registration_WinForm_SQL\bin\Debug\Unit6_Registration_WinForm_SQL.exe.config
+C:\Users\User\Dropbox\C# Projects\Week 6\Unit6_Registration_WinForm_SQL\Unit6_Registration_WinForm_SQL\bin\Debug\Unit6_Registration_WinForm_SQL.exe
+C:\Users\User\Dropbox\C# Projects\Week 6\Unit6_Registration_WinForm_SQL\Unit6_Registration_WinForm_SQL\bin\Debug\Unit6_Registration_WinForm_SQL.pdb
+C:\Users\User\Dropbox\C# Projects\Week 6\Unit6_Registration_WinForm_SQL\Unit6_Registration_WinForm_SQL\bin\Debug\CourseReg.dll
+C:\Users\User\Dropbox\C# Projects\Week 6\Unit6_Registration_WinForm_SQL\Unit6_Registration_WinForm_SQL\bin\Debug\CourseReg.pdb
+C:\Users\User\Dropbox\C# Projects\Week 6\Unit6_Registration_WinForm_SQL\Unit6_Registration_WinForm_SQL\obj\Debug\Unit6_Registration_WinForm_SQL.csprojAssemblyReference.cache
+C:\Users\User\Dropbox\C# Projects\Week 6\Unit6_Registration_WinForm_SQL\Unit6_Registration_WinForm_SQL\obj\Debug\Unit6_Registration_WinForm_SQL.Form1.resources
+C:\Users\User\Dropbox\C# Projects\Week 6\Unit6_Registration_WinForm_SQL\Unit6_Registration_WinForm_SQL\obj\Debug\Unit6_Registration_WinForm_SQL.Properties.Resources.resources
+C:\Users\User\Dropbox\C# Projects\Week 6\Unit6_Registration_WinForm_SQL\Unit6_Registration_WinForm_SQL\obj\Debug\Unit6_Registration_WinForm_SQL.csproj.GenerateResource.cache
+C:\Users\User\Dropbox\C# Projects\Week 6\Unit6_Registration_WinForm_SQL\Unit6_Registration_WinForm_SQL\obj\Debug\Unit6_Registration_WinForm_SQL.csproj.CoreCompileInputs.cache
+C:\Users\User\Dropbox\C# Projects\Week 6\Unit6_Registration_WinForm_SQL\Unit6_Registration_WinForm_SQL\obj\Debug\Unit6_Registration_WinForm_SQL.csproj.CopyComplete
+C:\Users\User\Dropbox\C# Projects\Week 6\Unit6_Registration_WinForm_SQL\Unit6_Registration_WinForm_SQL\obj\Debug\Unit6_Registration_WinForm_SQL.exe
+C:\Users\User\Dropbox\C# Projects\Week 6\Unit6_Registration_WinForm_SQL\Unit6_Registration_WinForm_SQL\obj\Debug\Unit6_Registration_WinForm_SQL.pdb

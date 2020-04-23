@@ -1,0 +1,62 @@
+﻿<link href="~/Content/Registration.css" rel="stylesheet" type="text/css" />
+@{
+    ViewBag.Title = "Index";
+}
+<!-- Use strongly typed model rather than generic ViewBag -->
+@model u8a1_MVCCoursesApplication.Models.RegistrationModel
+<h2>Index</h2>
+<!-- Form will post data back to Index() action in HomeController -->
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    <hr />
+    <div id="userIDBox">
+        <label>    User ID: </label>
+        @Html.TextBox("UserIDText", null, new { width = "300px" })
+    </div>
+    <p />
+    <div id="availableList">
+        <label>Titles: </label>
+        @Html.DropDownList("CourseDropdownList", Model.CourseDropdownList,
+            "Select a course...",
+            new { onchange = "SelectedIndexChanged()", width = "250px"})
+        <!-- Needed to pass selected course index back to server -->
+        @Html.Hidden("SelectedCourseID")
+    </div>
+    @Html.Label("UserMessage", Model.UserMessage)
+    <div id="selectedList">
+        <b>Selected Courses: </b>
+        <br />
+        <ul>
+            <!-- Loop to produce list of selected courses for user ID ordered by
+                 SelectedID. Where() finds by user name -->
+            @foreach (var sc in Model.SelectedCourses.Where(sc => sc.UserID == Model.UserIDText)
+                .OrderBy(b => b.SelectedID))
+            {
+                <li>@sc.CourseNumber</li>
+            }
+        </ul>
+        <p>
+            <!-- Format Model.TotalPrice as currency -->
+            Total Credits: @(Model.TotalCredits.ToString())
+        </p>
+        <!-- Add link to delete all selected courses for user if there are any -->
+        @if (Model.SelectedCourses.Count() > 0)
+        {
+            <!-- Text for link, name of controller action, name of controller,
+                parameter to pass UserIDText data to action -->
+            @Html.ActionLink("Delete Registration", "DeleteAll", "Home",
+                new { UserIDText = Model.UserIDText}, null)
+        }
+    </div>
+}
+
+<!-- Javascript to fill in hidden form field with selected index in
+     dropdown and submit form -->
+<script>
+    function SelectedIndexChanged() {
+        document.getElementById("SelectedCourseID").value =
+            document.getElementById("CourseDropdownList").selectedIndex;
+        document.forms[0].submit();
+    }
+</script>
+

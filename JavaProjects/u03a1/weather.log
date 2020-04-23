@@ -1,0 +1,8 @@
+Jan 27, 2019 7:04:57 PM edu.capella.it4749.U03A1 main
+INFO: URL: http://api.openweathermap.org/data/2.5/weather?zip=43527,us&APPID=aa3c36081cd74393e397d2af2c74394b
+Jan 27, 2019 7:04:58 PM edu.capella.it4749.U03A1 main
+INFO: Connection Successful
+Jan 27, 2019 7:04:59 PM edu.capella.it4749.U03A1 main
+INFO: Weather data retrieved, current as of: 2019-01-27T18:55-05:00[America/New_York]
+Jan 27, 2019 7:04:59 PM edu.capella.it4749.U03A1 main
+INFO: Display Data to console using Weather.jar

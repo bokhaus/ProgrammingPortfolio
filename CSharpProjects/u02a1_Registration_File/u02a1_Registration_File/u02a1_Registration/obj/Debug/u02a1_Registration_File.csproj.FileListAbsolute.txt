@@ -1,0 +1,8 @@
+C:\Users\User\Dropbox\C# Projects\Week 2\AssignmentWorking\u02a1_Registration_File\u02a1_Registration_File\u02a1_Registration\bin\Debug\Data\course.data.txt
+C:\Users\User\Dropbox\C# Projects\Week 2\AssignmentWorking\u02a1_Registration_File\u02a1_Registration_File\u02a1_Registration\bin\Debug\u02a1_Registration.exe.config
+C:\Users\User\Dropbox\C# Projects\Week 2\AssignmentWorking\u02a1_Registration_File\u02a1_Registration_File\u02a1_Registration\bin\Debug\u02a1_Registration.exe
+C:\Users\User\Dropbox\C# Projects\Week 2\AssignmentWorking\u02a1_Registration_File\u02a1_Registration_File\u02a1_Registration\bin\Debug\u02a1_Registration.pdb
+C:\Users\User\Dropbox\C# Projects\Week 2\AssignmentWorking\u02a1_Registration_File\u02a1_Registration_File\u02a1_Registration\obj\Debug\u02a1_Registration_File.csproj.CoreCompileInputs.cache
+C:\Users\User\Dropbox\C# Projects\Week 2\AssignmentWorking\u02a1_Registration_File\u02a1_Registration_File\u02a1_Registration\obj\Debug\u02a1_Registration.exe
+C:\Users\User\Dropbox\C# Projects\Week 2\AssignmentWorking\u02a1_Registration_File\u02a1_Registration_File\u02a1_Registration\obj\Debug\u02a1_Registration.pdb
+C:\Users\User\Dropbox\C# Projects\Week 2\AssignmentWorking\u02a1_Registration_File\u02a1_Registration_File\u02a1_Registration\obj\Debug\u02a1_Registration_File.csprojAssemblyReference.cache

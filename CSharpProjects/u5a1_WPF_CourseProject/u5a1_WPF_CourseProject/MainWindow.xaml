@@ -1,0 +1,49 @@
+﻿<Window x:Name="CourseWindow" x:Class="u5a1_WPF_CourseProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:u5a1_WPF_CourseProject"
+        mc:Ignorable="d"
+        Title="Course Selection" Height="379.91" Width="800" Loaded="CourseWindow_Loaded">
+    <Grid Margin="0,0,-0.4,0" Height="345" VerticalAlignment="Top">
+        <ComboBox x:Name="courseComboBox" HorizontalAlignment="Left" Margin="44,62,0,0" VerticalAlignment="Top" Width="245" SelectionChanged="CourseCombox_SelectionChanged" Height="26">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Rectangle Name="status" Width="10" Height="10" Margin="4 4 8 4">
+                            <Rectangle.Style>
+                                <Style TargetType="Rectangle">
+                                    <Style.Setters>
+                                        <Setter Property="Fill" Value="Green"/>
+                                    </Style.Setters>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding Path=Selected}" Value="true">
+                                            <Setter Property="Fill" Value="Red"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Rectangle.Style>
+                        </Rectangle>
+                        <TextBlock Text="{Binding Path=CourseTitle}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <Button x:Name="registerBtn" Content="Register" HorizontalAlignment="Left" Margin="44,281,0,0" VerticalAlignment="Top" Width="159" FontSize="14" Click="RegisterBtn_Click"/>
+        <Label Content="Available Courses" HorizontalAlignment="Left" Margin="44,34,0,0" VerticalAlignment="Top" Width="143" FontSize="14" FontWeight="Bold"/>
+        <Label x:Name="statusMessage" Content="Course Message Area" HorizontalAlignment="Left" Margin="43,207,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="totalCreditHoursLabel" Content="0" HorizontalAlignment="Left" Margin="433,271,0,0" VerticalAlignment="Top" FontSize="14" Height="27"/>
+        <Label Content="Total Credit Hours" HorizontalAlignment="Left" Margin="392,237,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+        <Label Content="Messages" HorizontalAlignment="Left" Margin="43,173,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" RenderTransformOrigin="-0.434,0.464"/>
+        <Label Content="Available" HorizontalAlignment="Left" Margin="43,104,0,0" VerticalAlignment="Top" Foreground="#FF138230" FontWeight="Bold"/>
+        <Label Content="Selected" HorizontalAlignment="Left" Margin="145,104,0,0" VerticalAlignment="Top" Foreground="#FFE41A1A" FontWeight="Bold" RenderTransformOrigin="0.504,-0.134"/>
+        <ListView x:Name="registeredCourseList" HorizontalAlignment="Left" Height="116" Margin="308,62,0,0" VerticalAlignment="Top" Width="442">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Registered Courses" Width="450"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+C:\Users\bberkland\source\repos\u04a1_Registration_WinForm\u04a1_Registration_WinForm\bin\Debug\u04a1_Registration_WinForm.exe.config
+C:\Users\bberkland\source\repos\u04a1_Registration_WinForm\u04a1_Registration_WinForm\bin\Debug\u04a1_Registration_WinForm.exe
+C:\Users\bberkland\source\repos\u04a1_Registration_WinForm\u04a1_Registration_WinForm\bin\Debug\u04a1_Registration_WinForm.pdb
+C:\Users\bberkland\source\repos\u04a1_Registration_WinForm\u04a1_Registration_WinForm\obj\Debug\u04a1_Registration_WinForm.csprojAssemblyReference.cache
+C:\Users\bberkland\source\repos\u04a1_Registration_WinForm\u04a1_Registration_WinForm\obj\Debug\u04a1_Registration_WinForm.Form1.resources
+C:\Users\bberkland\source\repos\u04a1_Registration_WinForm\u04a1_Registration_WinForm\obj\Debug\u04a1_Registration_WinForm.Properties.Resources.resources
+C:\Users\bberkland\source\repos\u04a1_Registration_WinForm\u04a1_Registration_WinForm\obj\Debug\u04a1_Registration_WinForm.csproj.GenerateResource.cache
+C:\Users\bberkland\source\repos\u04a1_Registration_WinForm\u04a1_Registration_WinForm\obj\Debug\u04a1_Registration_WinForm.csproj.CoreCompileInputs.cache
+C:\Users\bberkland\source\repos\u04a1_Registration_WinForm\u04a1_Registration_WinForm\obj\Debug\u04a1_Registration_WinForm.exe
+C:\Users\bberkland\source\repos\u04a1_Registration_WinForm\u04a1_Registration_WinForm\obj\Debug\u04a1_Registration_WinForm.pdb
+C:\Users\bberkland\source\repos\u04a1_Registration_WinForm\u04a1_Registration_WinForm\bin\Debug\Data\course.data.txt
+C:\Users\User\Dropbox\C# Projects\Week 4\Submission_u04a1_Registration_WinForm\u04a1_Registration_WinForm\u04a1_Registration_WinForm\bin\Debug\Data\course.data.txt
+C:\Users\User\Dropbox\C# Projects\Week 4\Submission_u04a1_Registration_WinForm\u04a1_Registration_WinForm\u04a1_Registration_WinForm\bin\Debug\u04a1_Registration_WinForm.exe.config
+C:\Users\User\Dropbox\C# Projects\Week 4\Submission_u04a1_Registration_WinForm\u04a1_Registration_WinForm\u04a1_Registration_WinForm\bin\Debug\u04a1_Registration_WinForm.exe
+C:\Users\User\Dropbox\C# Projects\Week 4\Submission_u04a1_Registration_WinForm\u04a1_Registration_WinForm\u04a1_Registration_WinForm\bin\Debug\u04a1_Registration_WinForm.pdb
+C:\Users\User\Dropbox\C# Projects\Week 4\Submission_u04a1_Registration_WinForm\u04a1_Registration_WinForm\u04a1_Registration_WinForm\bin\Debug\CourseReg.dll
+C:\Users\User\Dropbox\C# Projects\Week 4\Submission_u04a1_Registration_WinForm\u04a1_Registration_WinForm\u04a1_Registration_WinForm\bin\Debug\CourseReg.pdb
+C:\Users\User\Dropbox\C# Projects\Week 4\Submission_u04a1_Registration_WinForm\u04a1_Registration_WinForm\u04a1_Registration_WinForm\obj\Debug\u04a1_Registration_WinForm.csprojAssemblyReference.cache
+C:\Users\User\Dropbox\C# Projects\Week 4\Submission_u04a1_Registration_WinForm\u04a1_Registration_WinForm\u04a1_Registration_WinForm\obj\Debug\u04a1_Registration_WinForm.Form1.resources
+C:\Users\User\Dropbox\C# Projects\Week 4\Submission_u04a1_Registration_WinForm\u04a1_Registration_WinForm\u04a1_Registration_WinForm\obj\Debug\u04a1_Registration_WinForm.Properties.Resources.resources
+C:\Users\User\Dropbox\C# Projects\Week 4\Submission_u04a1_Registration_WinForm\u04a1_Registration_WinForm\u04a1_Registration_WinForm\obj\Debug\u04a1_Registration_WinForm.csproj.GenerateResource.cache
+C:\Users\User\Dropbox\C# Projects\Week 4\Submission_u04a1_Registration_WinForm\u04a1_Registration_WinForm\u04a1_Registration_WinForm\obj\Debug\u04a1_Registration_WinForm.csproj.CoreCompileInputs.cache
+C:\Users\User\Dropbox\C# Projects\Week 4\Submission_u04a1_Registration_WinForm\u04a1_Registration_WinForm\u04a1_Registration_WinForm\obj\Debug\u04a1_Registration_WinForm.csproj.CopyComplete
+C:\Users\User\Dropbox\C# Projects\Week 4\Submission_u04a1_Registration_WinForm\u04a1_Registration_WinForm\u04a1_Registration_WinForm\obj\Debug\u04a1_Registration_WinForm.exe
+C:\Users\User\Dropbox\C# Projects\Week 4\Submission_u04a1_Registration_WinForm\u04a1_Registration_WinForm\u04a1_Registration_WinForm\obj\Debug\u04a1_Registration_WinForm.pdb

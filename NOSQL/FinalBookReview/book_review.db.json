@@ -1,0 +1,185 @@
+{
+	"_id": {
+		"$oid": "5c809e749ac81bd2304eaaf6"
+	},
+	"author": "Michael Ondaatje",
+	"title": "Warlight",
+	"genre": "Fiction",
+	"book_info": {
+		"date_published": {
+			"$date": "2018-05-09T00:00:00.000Z"
+		},
+		"place_of_publication": "U.S.A.",
+		"publisher": "Diversified Publishing"
+	},
+	"formats": [
+		{
+			"book_format": "Hardback / Paperback",
+			"page_count_minutes": "288 pages",
+			"ISBN": "9780525633006"
+		},
+		{
+			"book_format": "AudioBook",
+			"page_count_minutes": "517 minutes",
+			"ISBN": "9780525627517"
+		}
+	],
+	"reviews": [
+		{
+			"date": {
+				"$date": "2019-01-17T00:00:00.000Z"
+			},
+			"reviewer_id": "004",
+			"book_rating": "9",
+			"review": "The term warlight was used to describe the dimmed lights that guided emergency traffic during London's wartime blackouts."
+		}
+	],
+	"book_id": "45673201"
+}
+{
+	"_id": {
+		"$oid": "5c809e759ac81bd2304eaaf7"
+	},
+	"author": "Robert Greene",
+	"title": "The Laws of Human Nature",
+	"genre": "Nonfiction",
+	"book_info": {
+		"date_published": {
+			"$date": "2018-10-23T00:00:00.000Z"
+		},
+		"place_of_publication": "U.S.A.",
+		"publisher": "Penguin Publishing Group"
+	},
+	"formats": [
+		{
+			"book_format": "Hardback",
+			"page_count_minutes": "627 pages",
+			"ISBN": "9780525428145"
+		},
+		{
+			"book_format": "AudioBook",
+			"page_count_minutes": "661 minutes",
+			"ISBN": "9780525641544"
+		}
+	],
+	"reviews": [
+		{
+			"date": {
+				"$date": "2019-02-22T00:00:00.000Z"
+			},
+			"reviewer_id": "004",
+			"book_rating": "8",
+			"review": "In this detailed and expansive guide, Greene seeks to immerse his audience in all aspects of human behavior as represented by 18 laws created by Greene"
+		}
+	],
+	"book_id": "45673202"
+}
+{
+	"_id": {
+		"$oid": "5c809e759ac81bd2304eaaf8"
+	},
+	"author": "Delia Owens",
+	"title": "Where the Crawdads Sing",
+	"genre": "Fiction",
+	"book_info": {
+		"date_published": {
+			"$date": "2018-08-14T00:00:00.000Z"
+		},
+		"place_of_publication": "U.S.A.",
+		"publisher": "Penguin Publishing Group"
+	},
+	"formats": [
+		{
+			"book_format": "Hardback",
+			"page_count_minutes": "384 pages",
+			"ISBN": "9780735219090"
+		},
+		{
+			"book_format": "AudioBook",
+			"page_count_minutes": "287 minutes",
+			"ISBN": "9780593103036"
+		}
+	],
+	"reviews": [
+		{
+			"date": {
+				"$date": "2019-03-02T00:00:00.000Z"
+			},
+			"reviewer_id": "001",
+			"book_rating": "9",
+			"review": "In 1969 local lothario Chase Andrews is found dead, and Kya, now 23 and known as the Marsh Girl is suspected of his murder."
+		}
+	],
+	"book_id": "45673203"
+}
+{
+	"_id": {
+		"$oid": "5c809e759ac81bd2304eaaf9"
+	},
+	"author": "Reese Witherspoon",
+	"title": "Whiskey in a Teacup",
+	"genre": "Nonfiction",
+	"book_info": {
+		"date_published": {
+			"$date": "2018-09-18T00:00:00.000Z"
+		},
+		"place_of_publication": "U.S.A.",
+		"publisher": "Atria Books"
+	},
+	"formats": [
+		{
+			"book_format": "Hardback",
+			"page_count_minutes": "304 pages",
+			"ISBN": "9781501166273"
+		}
+	],
+	"reviews": [
+		{
+			"date": {
+				"$date": "2019-01-17T00:00:00.000Z"
+			},
+			"reviewer_id": "001",
+			"book_rating": "7",
+			"review": "Actress and book club host Witherspoon pays tribute to her Southern roots in this charming collection of recipes"
+		}
+	],
+	"book_id": "45673204"
+}
+{
+	"_id": {
+		"$oid": "5c809e759ac81bd2304eaafa"
+	},
+	"author": "Adam Schefter, with Michael Rosenberg",
+	"title": "The Man I Never Met",
+	"genre": "Nonfiction",
+	"book_info": {
+		"date_published": {
+			"$date": "2018-09-14T00:00:00.000Z"
+		},
+		"place_of_publication": "London",
+		"publisher": "St. Martin's Press"
+	},
+	"formats": [
+		{
+			"book_format": "Hardback",
+			"page_count_minutes": "208 pages",
+			"ISBN": "9781250161895"
+		},
+		{
+			"book_format": "AudioBook",
+			"page_count_minutes": "275 minutes",
+			"ISBN": "9781721358960"
+		}
+	],
+	"reviews": [
+		{
+			"date": {
+				"$date": "2019-02-18T00:00:00.000Z"
+			},
+			"reviewer_id": "002",
+			"book_rating": "9",
+			"review": "ESPN sports analyst Schefter’s thoughtful though peculiar memoir tells his story of falling in love with the widow of a 9/11 victim"
+		}
+	],
+	"book_id": "45673205"
+}

@@ -1,0 +1,5 @@
+C:\Users\User\Dropbox\C# Projects\Week 6\Unit6_Registration_WinForm_SQL\CourseReg\bin\Debug\CourseReg.dll
+C:\Users\User\Dropbox\C# Projects\Week 6\Unit6_Registration_WinForm_SQL\CourseReg\bin\Debug\CourseReg.pdb
+C:\Users\User\Dropbox\C# Projects\Week 6\Unit6_Registration_WinForm_SQL\CourseReg\obj\Debug\CourseReg.csproj.CoreCompileInputs.cache
+C:\Users\User\Dropbox\C# Projects\Week 6\Unit6_Registration_WinForm_SQL\CourseReg\obj\Debug\CourseReg.dll
+C:\Users\User\Dropbox\C# Projects\Week 6\Unit6_Registration_WinForm_SQL\CourseReg\obj\Debug\CourseReg.pdb

@@ -1,0 +1,182 @@
+Mar 10, 2019 4:08:53 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 main
+INFO: ****** Program Start ******
+Mar 10, 2019 4:08:53 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 main
+CONFIG: Creating logger for program.
+Mar 10, 2019 4:09:12 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookChoice
+CONFIG: Format initial selections table
+Mar 10, 2019 4:09:12 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookChoice
+CONFIG: Format initial selections table
+Mar 10, 2019 4:09:12 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookChoice
+CONFIG: Format initial selections table
+Mar 10, 2019 4:09:14 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookChoice
+INFO: Book selection made '45673205'
+Mar 10, 2019 4:09:14 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookInfo
+INFO: Return NEW Book    param: 45673205
+Mar 10, 2019 4:09:14 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 main
+INFO: Displaying TITLE INFORMATION for the book: (The Man I Never Met)from getBookInfo()
+Mar 10, 2019 4:09:15 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookFormats
+INFO: getBookFormats Method (toString) Start....params: 
+
+Title: The Man I Never Met
+Author: Adam Schefter, with Michael Rosenberg
+Genre: Nonfiction
+
+Publication Information: 
+Published Date: Thu Sep 13 20:00:00 EDT 2018
+Place of Publication: London
+Publisher: St. Martin's Press
+
+Mar 10, 2019 4:09:15 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 main
+INFO: Displaying FORMAT INFORMATION for the book: (The Man I Never Met)from getBookFormats()
+Mar 10, 2019 4:09:16 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getReviewerInfoAsync
+INFO: queryDatabaseAsync Method Start....params:  dbURL, user, password, 45673205
+Mar 10, 2019 4:09:16 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getReviewerInfo
+INFO:  Connection is valid: true
+Mar 10, 2019 4:09:16 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getReviewerInfo
+INFO: Return NEW Reviewer    params:  dbURL, user, password, 45673205
+Mar 10, 2019 4:09:16 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getCummReviewerRating
+INFO:  Connection is valid: true
+Mar 10, 2019 4:09:16 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getCummReviewerRating
+INFO: Return NEW Reviewer    params:  dbURL, user, password, brianhaus
+Mar 10, 2019 4:09:16 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookReviews
+INFO: getBookReviews Method (toString) Start....params: 
+
+Title: The Man I Never Met
+Author: Adam Schefter, with Michael Rosenberg
+Genre: Nonfiction
+
+Publication Information: 
+Published Date: Thu Sep 13 20:00:00 EDT 2018
+Place of Publication: London
+Publisher: St. Martin's Press
+
+Mar 10, 2019 4:09:16 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 main
+INFO: Displaying REVIEW INFORMATION for the book: (The Man I Never Met)from getBookReviews()
+Mar 10, 2019 4:09:16 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 main
+INFO: Call Async method for thread query
+Mar 10, 2019 4:09:16 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 main
+INFO: Exit Do_While LOOP in case 'Y' Locating book and displaying Title INFORMATION for the book: (The Man I Never Met)
+Mar 10, 2019 4:09:16 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 main
+INFO: Exit Do_While LOOP in the 'default' case...Select different book or Close program.
+Mar 10, 2019 4:09:25 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookChoice
+CONFIG: Format initial selections table
+Mar 10, 2019 4:09:25 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookChoice
+CONFIG: Format initial selections table
+Mar 10, 2019 4:09:25 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookChoice
+CONFIG: Format initial selections table
+Mar 10, 2019 4:09:25 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookChoice
+CONFIG: Format initial selections table
+Mar 10, 2019 4:09:25 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookChoice
+CONFIG: Format initial selections table
+Mar 10, 2019 4:09:31 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookChoice
+INFO: Book selection made '45673205'
+Mar 10, 2019 4:09:31 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookInfo
+INFO: Return NEW Book    param: 45673205
+Mar 10, 2019 4:09:31 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 main
+INFO: Displaying TITLE INFORMATION for the book: (The Man I Never Met)from getBookInfo()
+Mar 10, 2019 4:09:32 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookFormats
+INFO: getBookFormats Method (toString) Start....params: 
+
+Title: The Man I Never Met
+Author: Adam Schefter, with Michael Rosenberg
+Genre: Nonfiction
+
+Publication Information: 
+Published Date: Thu Sep 13 20:00:00 EDT 2018
+Place of Publication: London
+Publisher: St. Martin's Press
+
+Mar 10, 2019 4:09:32 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 main
+INFO: Displaying FORMAT INFORMATION for the book: (The Man I Never Met)from getBookFormats()
+Mar 10, 2019 4:09:33 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getReviewerInfoAsync
+INFO: queryDatabaseAsync Method Start....params:  dbURL, user, password, 45673205
+Mar 10, 2019 4:09:33 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getReviewerInfo
+INFO:  Connection is valid: true
+Mar 10, 2019 4:09:33 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getReviewerInfo
+INFO: Return NEW Reviewer    params:  dbURL, user, password, 45673205
+Mar 10, 2019 4:09:33 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getCummReviewerRating
+INFO:  Connection is valid: true
+Mar 10, 2019 4:09:33 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getCummReviewerRating
+INFO: Return NEW Reviewer    params:  dbURL, user, password, brianhaus
+Mar 10, 2019 4:09:33 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookReviews
+INFO: getBookReviews Method (toString) Start....params: 
+
+Title: The Man I Never Met
+Author: Adam Schefter, with Michael Rosenberg
+Genre: Nonfiction
+
+Publication Information: 
+Published Date: Thu Sep 13 20:00:00 EDT 2018
+Place of Publication: London
+Publisher: St. Martin's Press
+
+Mar 10, 2019 4:09:33 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 main
+INFO: Displaying REVIEW INFORMATION for the book: (The Man I Never Met)from getBookReviews()
+Mar 10, 2019 4:09:33 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 main
+INFO: Call Async method for thread query
+Mar 10, 2019 4:09:33 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 main
+INFO: Exit Do_While LOOP in case 'Y' Locating book and displaying Title INFORMATION for the book: (The Man I Never Met)
+Mar 10, 2019 4:09:33 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 main
+INFO: Exit Do_While LOOP in the 'default' case...Select different book or Close program.
+Mar 10, 2019 4:09:39 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookChoice
+CONFIG: Format initial selections table
+Mar 10, 2019 4:09:39 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookChoice
+CONFIG: Format initial selections table
+Mar 10, 2019 4:09:39 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookChoice
+CONFIG: Format initial selections table
+Mar 10, 2019 4:09:39 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookChoice
+CONFIG: Format initial selections table
+Mar 10, 2019 4:09:39 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookChoice
+CONFIG: Format initial selections table
+Mar 10, 2019 4:09:41 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookChoice
+INFO: Book selection made '45673201'
+Mar 10, 2019 4:09:41 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookInfo
+INFO: Return NEW Book    param: 45673201
+Mar 10, 2019 4:09:41 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 main
+INFO: Displaying TITLE INFORMATION for the book: (Warlight)from getBookInfo()
+Mar 10, 2019 4:09:42 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookFormats
+INFO: getBookFormats Method (toString) Start....params: 
+
+Title: Warlight
+Author: Michael Ondaatje
+Genre: Fiction
+
+Publication Information: 
+Published Date: Tue May 08 20:00:00 EDT 2018
+Place of Publication: U.S.A.
+Publisher: Diversified Publishing
+
+Mar 10, 2019 4:09:42 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 main
+INFO: Displaying FORMAT INFORMATION for the book: (Warlight)from getBookFormats()
+Mar 10, 2019 4:09:43 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getReviewerInfoAsync
+INFO: queryDatabaseAsync Method Start....params:  dbURL, user, password, 45673201
+Mar 10, 2019 4:09:43 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getReviewerInfo
+INFO:  Connection is valid: true
+Mar 10, 2019 4:09:43 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getReviewerInfo
+INFO: Return NEW Reviewer    params:  dbURL, user, password, 45673201
+Mar 10, 2019 4:09:43 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getCummReviewerRating
+INFO:  Connection is valid: true
+Mar 10, 2019 4:09:43 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getCummReviewerRating
+INFO: Return NEW Reviewer    params:  dbURL, user, password, bossman28
+Mar 10, 2019 4:09:43 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 getBookReviews
+INFO: getBookReviews Method (toString) Start....params: 
+
+Title: Warlight
+Author: Michael Ondaatje
+Genre: Fiction
+
+Publication Information: 
+Published Date: Tue May 08 20:00:00 EDT 2018
+Place of Publication: U.S.A.
+Publisher: Diversified Publishing
+
+Mar 10, 2019 4:09:43 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 main
+INFO: Displaying REVIEW INFORMATION for the book: (Warlight)from getBookReviews()
+Mar 10, 2019 4:09:43 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 main
+INFO: Call Async method for thread query
+Mar 10, 2019 4:09:43 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 main
+INFO: Exit Do_While LOOP in case 'Y' Locating book and displaying Title INFORMATION for the book: (Warlight)
+Mar 10, 2019 4:09:43 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 main
+INFO: Exit Do_While LOOP in the 'default' case...Select different book or Close program.
+Mar 10, 2019 4:09:52 AM edu.capella.it4736.U9a1_BookReviewQuery_v2 main
+INFO: Exit yesOrNo SWITCH...***Closing Program***
