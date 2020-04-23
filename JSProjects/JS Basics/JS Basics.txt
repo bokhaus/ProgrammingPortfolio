@@ -1,0 +1,52 @@
+var name = prompt(); var lastName = prompt(); alert("Hi " + name + ',' + lastName);
+
+var name = prompt(); var lastName = prompt(); alert("Hi " + name + ' ' + lastName);
+
+var name = prompt("What is your first name")
+
+var name = prompt("What is your first name?"); var lastName = prompt("What is your last name?"); alert("Hi " + name + ' ' + lastName);
+
+Concatenates the three numbers but does not add them.
+var num1 = prompt("Select first number to add"); 
+var num2 = prompt("Select second number to add"); 
+var num3 = prompt("Select third number to add"); alert("The sum of the three numbers is " + (num1 + num2 + num3));
+
+Comparison Operators
+<    Less than
+>   Greater than
+<=  Less than or equal to
+>= Greater than or equal to
+==    equal to
+!=     not equal to
+
+There are also "strict" equality types
+=== same value and same type
+!== not same value and same type
+
+For example:
+"2" == 2 will be true - even though they're different types, they're considered equal
+"2" === 2 will be false because the second value is a number type, where the first is a string type
+You should use the triple === whenever possible, as it's more specific.
+
+
+Various Commands
+
+console.log('hello'); - prints hello to the log 
+alert('Woohoo first code in JS'); - prints to a pop up window.
+
+JSON Basics
+1. the JSON is already valid JS code. 
+
+To use in HTML
+- set a variable between script<> tags and copy the json data into the variable.
+
+- the parse as a string
+
+
+
+
+
+
+
+
+

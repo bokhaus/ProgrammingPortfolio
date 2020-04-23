@@ -1,0 +1,18 @@
+To Create a new project, Open Visual Studio Code editor 
+	1. Open folder created for the project 
+	2. beside the folder there will be a +(Folder) icon, hit icon to and a file.
+	3. Create a new file and name it index.html
+	4. CNTRL + B will open the file in a full window.
+	5. Type doc and the TAB and this will populate the file with bare bone code.
+	6. Type JS code between the script tags and Save file. (Auto Save)
+	7. Open a Chrome tab and type CNTRL +O and this will open dialog to open html file.
+	8. Select the file and open. 
+	9. 
+
+
+
+
+
+
+
+
